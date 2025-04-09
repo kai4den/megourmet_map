@@ -1,0 +1,98 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景（空と海） - マンガ調にグラデーション追加 -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#54C3FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#87CEEB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="seaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E90FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0000CD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect x="0" y="0" width="400" height="250" fill="url(#skyGradient)" />
+  <rect x="0" y="250" width="400" height="150" fill="url(#seaGradient)" />
+  
+  <!-- マンガ風の雲 -->
+  <ellipse cx="100" cy="60" rx="45" ry="25" fill="white" stroke="#CCCCCC" stroke-width="2" />
+  <ellipse cx="70" cy="55" rx="25" ry="20" fill="white" stroke="#CCCCCC" stroke-width="2" />
+  <ellipse cx="130" cy="55" rx="25" ry="18" fill="white" stroke="#CCCCCC" stroke-width="2" />
+  
+  <ellipse cx="250" cy="40" rx="35" ry="20" fill="white" stroke="#CCCCCC" stroke-width="2" />
+  <ellipse cx="230" cy="35" rx="20" ry="15" fill="white" stroke="#CCCCCC" stroke-width="2" />
+  <ellipse cx="270" cy="35" rx="20" ry="15" fill="white" stroke="#CCCCCC" stroke-width="2" />
+  
+  <!-- マンガ風の太陽（効果線追加） -->
+  <circle cx="330" cy="70" r="40" fill="#FFD700" />
+  <circle cx="330" cy="70" r="30" fill="#FFFF00" />
+  <!-- 太陽の効果線 -->
+  <line x1="330" y1="15" x2="330" y2="30" stroke="#FFD700" stroke-width="3" />
+  <line x1="330" y1="110" x2="330" y2="125" stroke="#FFD700" stroke-width="3" />
+  <line x1="275" y1="70" x2="290" y2="70" stroke="#FFD700" stroke-width="3" />
+  <line x1="370" y1="70" x2="385" y2="70" stroke="#FFD700" stroke-width="3" />
+  <line x1="290" y1="30" x2="300" y2="40" stroke="#FFD700" stroke-width="3" />
+  <line x1="360" y1="100" x2="370" y2="110" stroke="#FFD700" stroke-width="3" />
+  <line x1="290" y1="110" x2="300" y2="100" stroke="#FFD700" stroke-width="3" />
+  <line x1="360" y1="40" x2="370" y2="30" stroke="#FFD700" stroke-width="3" />
+  
+  <!-- 島々（瀬戸内海） - マンガ調に輪郭線追加 -->
+  <ellipse cx="70" cy="280" rx="25" ry="10" fill="#006400" stroke="black" stroke-width="2" />
+  <ellipse cx="150" cy="300" rx="35" ry="15" fill="#228B22" stroke="black" stroke-width="2" />
+  <ellipse cx="250" cy="290" rx="30" ry="12" fill="#228B22" stroke="black" stroke-width="2" />
+  <ellipse cx="330" cy="310" rx="25" ry="10" fill="#006400" stroke="black" stroke-width="2" />
+  
+  <!-- 山（松山の背景にある山々） - マンガ調に輪郭線と模様追加 -->
+  <path d="M0,250 L60,180 L100,210 L150,150 L200,190 L250,140 L300,170 L350,120 L400,180 L400,250 Z" fill="#228B22" stroke="black" stroke-width="3" />
+  <!-- 山の模様 -->
+  <path d="M50,210 L60,200 L70,210" stroke="#006400" stroke-width="2" fill="none" />
+  <path d="M120,190 L130,180 L140,190" stroke="#006400" stroke-width="2" fill="none" />
+  <path d="M220,170 L230,160 L240,170" stroke="#006400" stroke-width="2" fill="none" />
+  <path d="M320,160 L330,150 L340,160" stroke="#006400" stroke-width="2" fill="none" />
+  
+  <!-- 松山城 - マンガ調に輪郭線と細部追加 -->
+  <rect x="170" y="140" width="60" height="40" fill="#F5F5DC" stroke="black" stroke-width="3" />
+  <rect x="180" y="100" width="40" height="40" fill="#F5F5DC" stroke="black" stroke-width="3" />
+  <polygon points="180,100 200,80 220,100" fill="#8B4513" stroke="black" stroke-width="3" />
+  <rect x="195" y="80" width="10" height="10" fill="#8B4513" stroke="black" stroke-width="2" />
+  <!-- 城の窓 -->
+  <rect x="185" y="110" width="10" height="15" fill="#87CEFA" stroke="black" stroke-width="1" />
+  <rect x="205" y="110" width="10" height="15" fill="#87CEFA" stroke="black" stroke-width="1" />
+  <rect x="185" y="150" width="10" height="15" fill="#87CEFA" stroke="black" stroke-width="1" />
+  <rect x="205" y="150" width="10" height="15" fill="#87CEFA" stroke="black" stroke-width="1" />
+  
+  <!-- 道後温泉本館 - マンガ調に輪郭線と細部追加 -->
+  <rect x="50" y="200" width="80" height="50" fill="#F5F5F5" stroke="black" stroke-width="3" />
+  <rect x="60" y="170" width="60" height="30" fill="#F5F5F5" stroke="black" stroke-width="3" />
+  <rect x="75" y="150" width="30" height="20" fill="#D2B48C" stroke="black" stroke-width="3" />
+  <rect x="60" y="200" width="10" height="20" fill="#000000" />
+  <rect x="110" y="200" width="10" height="20" fill="#000000" />
+  <!-- 温泉の湯気 -->
+  <path d="M85,145 C90,135 95,140 90,130" stroke="white" stroke-width="3" fill="none" />
+  <path d="M95,145 C100,135 105,140 100,130" stroke="white" stroke-width="3" fill="none" />
+  
+  <!-- みかん - マンガ調に輪郭線と光沢追加 -->
+  <circle cx="50" cy="120" r="10" fill="#FFA500" stroke="black" stroke-width="2" />
+  <circle cx="70" cy="110" r="10" fill="#FFA500" stroke="black" stroke-width="2" />
+  <circle cx="40" cy="100" r="10" fill="#FFA500" stroke="black" stroke-width="2" />
+  <circle cx="60" cy="90" r="10" fill="#FFA500" stroke="black" stroke-width="2" />
+  <path d="M50,85 C55,80 60,83 60,85" stroke="#006400" stroke-width="2" fill="none" />
+  <!-- みかんの光沢 -->
+  <circle cx="47" cy="117" r="2" fill="white" />
+  <circle cx="67" cy="107" r="2" fill="white" />
+  <circle cx="37" cy="97" r="2" fill="white" />
+  <circle cx="57" cy="87" r="2" fill="white" />
+  
+  <!-- 路面電車 - マンガ調に輪郭線と効果線追加 -->
+  <rect x="280" y="230" width="40" height="20" fill="#FF6347" stroke="black" stroke-width="3" />
+  <rect x="290" y="220" width="20" height="10" fill="#FF6347" stroke="black" stroke-width="3" />
+  <circle cx="290" cy="250" r="5" fill="#000000" stroke="black" stroke-width="1" />
+  <circle cx="310" cy="250" r="5" fill="#000000" stroke="black" stroke-width="1" />
+  <!-- 電車の窓 -->
+  <rect x="285" y="225" width="10" height="8" fill="#87CEFA" stroke="black" stroke-width="1" />
+  <rect x="305" y="225" width="10" height="8" fill="#87CEFA" stroke="black" stroke-width="1" />
+  <!-- 電車の動き効果線 -->
+  <line x1="270" y1="235" x2="275" y2="235" stroke="black" stroke-width="2" />
+  <line x1="265" y1="240" x2="270" y2="240" stroke="black" stroke-width="2" />
+  <line x1="270" y1="245" x2="275" y2="245" stroke="black" stroke-width="2" />
+</svg>
