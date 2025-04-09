@@ -1,5 +1,5 @@
-title: めぐるめマップ
-description: 目黒周辺のグルメマップです
+title: Ruby Kaigi 2025 飲食マップ
+description: Ruby Kaigi 2025会場周辺の飲食を中心としたマップです
 data_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vSGORBHQ-rYStYaZl7sTRV2INmTFslf4WkH8n_0JR2GAieD0qxH89q6RzOfX9ZuwP_1ePp0-0lXLSzP/pub?gid=1957425126&single=true&output=csv
 form_url:
 logo_image_url: https://kai4den.github.io/rubygourmet25/megmap.svg
